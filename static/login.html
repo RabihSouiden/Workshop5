@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://neo4j-documentation.github.io/developer-resources/language-guides/assets/css/main.css">
+    <title>Ciudadanos de 4 patas</title>
+</head>
+
+<body>
+
+<div role="navigation" class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <div class="row">
+            <div class="navbar-header col-sm-6 col-md-6">
+                <div class="navbar-brand">
+                    <div class="brand">Ciudadanos de 4 patas</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <form action="login" method="post">
+    <div class="col-md-7">
+        <div class="panel panel-default">
+            <div class="row">
+                <div class="col-md-8 col-sm-8">
+                    Usuario
+                    <input type="text" id="pUser"/>
+                </div>
+            </div>
+            <div class="panel-footer"><button id="login">Entrar</button></div>
+        </div>
+    </div>
+</form>
+</div>
+<script type="text/javascript">
+function voteInMovie(title) {
+            $.post("/login/" , () => {
+            });
+        }
+</script>
